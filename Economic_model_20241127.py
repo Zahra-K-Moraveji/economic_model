@@ -2,6 +2,15 @@ import pandas as pd
 import numpy as np
 
 
+#users
+# Users and their consumption and PV shares
+users = ['user1', 'user2', 'user3', 'user4', 'user5']
+user_consumption_shares = {"user1": 0.2, "user2": 0.3, "user3": 0.15, "user4": 0.15, "user5": 0.2}
+user_pv_shares = {"user1": 0.25, "user2": 0.2, "user3": 0.15, "user4": 0.2, "user5": 0.2}
+# Calculate initial cost per user (equal share for simplicity)
+initial_cost_Share_per_user = {"user1": 0.20, "user2": 0.20, "user3": 0.20, "user4": 0.2, "user5": 0.2}
+
+
 inflation_rate = 0.03
 discount_rate = 0.05
 period = 25
