@@ -1,4 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from CMM-PV-20242511 import calculate_pv_system_metrics
+import sys
+sys.path.append(r"C:\Users\z_keshav\PycharmProjects\economic_model")
+from Economic_model_20241127 import calculate_pv_system_metrics
+
